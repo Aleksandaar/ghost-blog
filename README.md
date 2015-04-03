@@ -1,3 +1,8 @@
+# Setup on Heroku:
+
+Follow the instructions from:
+http://www.therightcode.net/deploy-ghost-to-heroku-for-free/
+
 # [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://travis-ci.org/TryGhost/Ghost.svg?branch=master)](https://travis-ci.org/TryGhost/Ghost)
 
 ![Ghost Screenshot](https://cloud.githubusercontent.com/assets/120485/4828504/9e832764-5f80-11e4-8ac1-0332bcc67a35.png)
@@ -16,7 +21,7 @@ Want to report a bug, request a feature, contribute, or translate Ghost? Check o
 
 There are a few different ways to install Ghost, take care to use the method which best suits your needs.
 
-**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download), the [GitHub releases page](https://github.com/TryGhost/Ghost/releases), and via npm are pre-built packages designed for getting setup quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself. 
+**Please note** - the downloadable zip files we provide on [Ghost.org](http://ghost.org/download), the [GitHub releases page](https://github.com/TryGhost/Ghost/releases), and via npm are pre-built packages designed for getting setup quickly. Cloning from the git repository requires you to install several dependencies and build the assets yourself.
 
 ### Compatibility
 
@@ -34,7 +39,7 @@ If you just want to get a Ghost blog running in the fastest time possible, this 
 For detailed instructions on various platforms, visit the [Ghost Installation Guide](http://support.ghost.org/installation/). If you get stuck, help is available on [our support site](http://support.ghost.org/).
 
 1. Install [Node.js](http://nodejs.org) - See [compatibility](https://github.com/TryGhost/Ghost#compatibility) section for details of supported versions
-1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download). 
+1. Download the latest Ghost package from [Ghost.org](http://ghost.org/download).
 1. Create a new directory where you would like to run the code, and un-zip the package to that location.
 1. Fire up a Terminal, the Node Command Prompt or shell and change directory to the root of the Ghost application (where config.example.js and index.js are)
 1. run `npm install --production` to install the node dependencies. If you see `error Error: ENOENT` on this step, make sure you are in the project directory and try again.
